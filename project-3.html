@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sai Shilpa Padmanabula Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div></br>
+						<ul class="actions">
+							<li><a href="projects.html" class="button icon solid solo fa-arrow-left" style="background-color: #ffffff; color: #007bff; ">Main Page</a></li>
+						</ul></br></br>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a>Project Insights</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/shilpa-p-a50099177/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Shilpa-Chowdary" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+			</div>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h3 style="font-size: 150%;">object detection using stacked yolov3</h3><br/>
+									<h3>Introduction </h3>
+									<p style="text-align: justify;">Object detection is one of the pivotal and main demanding problems in computer vision.
+										When we check out images or videos, we will easily locate and identify the objects of our interest within moments. 
+										The only way to transfer this human intelligence to computers is through object detection, which involves finding 
+										and recognizing the item. Similarly, to detect the objects through a computer we'd like some algorithms.
+										
+										<ul style="text-align: left; font-size: 90%;" ><em>
+											We can detect objects not only from the pictures but also from the videos.
+											<li>The images will be assigned class labels throughout the image classification process.</li>
+											<li>Object Localization pinpoints to seek out the location of the single object inside the image.</li>
+											<li>Object detection is the result of combining object localization and image classification. </li>
+											<li>Object detection is tougher and fuses these two tasks and draws a bounding box around each object of interest 
+													in the image and assigns them a class label.</li>
+											<li>One of the further extensions to this computer vision task is Object Segmentation also called “Object Instance 
+													Segmentation”. In this, the instances of identified objects are stipulated by highlighting the certain pixels of 
+													the object instead of a coarse bounding box.</li>
+										</em>	
+										</ul>
+									</p>
+									</header>
+								<h3>OVERVIEW OF THE ARCHITECTURE</h3>
+								<a class="image"><img src="images/yolo.jpg" alt="" width="650" height="600"/></a><br /><br />
+								<p style="text-align: justify;"><em>YOLOv3 contains Darknet-53 architecture. It has fifty-three convolutional layers and is trained 
+									on the ImageNet dataset. This model is additional powerful to spot even tiny objects from the image. YOLOV3 can be able to 
+									recognize quite eighty varied objects in one image. For the task of detection, fifty-three additional layers are stacked onto
+									 it, giving us a 106 layer fully convolutional underlying design for YOLOv3.
+								</p></em>
+									
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article style="height: 900px;">
+									<header>
+										<h3>Work flow representation of detecting objects from an image<br /></h3>
+										<a class="image"><img src="images/detecting-image.png" alt="" width="350" height="690"/></a>
+									</header>
+								</article>
+								<article  style="height: 900px;">
+									<header>
+										<h3>Work flow representation of detecting objects from video<br /></h3>
+										<a class="image main"><img src="images/detecting - video.png" alt=""/></a>
+									</header>
+								</article>
+							</section>
+
+							<div>
+								<header class="major">
+									<h3> Outputs</h3>
+								</header>
+							</div>
+								<section class="posts">
+									<article>
+										<header>
+											<h3>Output screenshot for image<br /></h3>
+										</header>
+										<a class="image fit"><img src="images/image-output.png"/></a><br/><br/>
+										<header>
+											<h3>The accuracy regarding the above output is shown below<br /></h3>
+										</header>
+										<a class="image fit"><img src="images/accuracy-image.png"/></a>
+									</article>
+									<article>
+										<header>
+											<h3>Output screenshot for video<br /></h3>
+										</header>
+										<a class="image fit"><img src="images/video-output.png"/></a>
+										<header>
+											<h3>The accuracy regarding the above output is shown below<br /></h3>
+											<p>While executing the video, we employed the accuracy of each frame such that it calculates the accuracy for each detected objects in each frame.
+												We showed the recorded accuracies through a graph and it is shown below.
+												</p>
+										</header>
+										<a class="image fit"><img src="images/accuracy-video.png"/></a>
+									</article>
+							</section>
+							
+							<div>
+								<header class="major">
+								<p style="text-align: justify;">We've implemented YOLO, a unified model for object detection that operates efficiently on
+									 full images. Compared to traditional approaches like R-CNN, fast R-CNN, and faster R-CNN, YOLO stands out for its 
+									 simplicity and speed. It processes images in one pass, making it ideal for applications prioritizing speed over 
+									 high accuracy.</br></br>
+
+								In future we intend to develop this into a real time application which will be useful in many ways.  Real time application is 
+								an application program that functions within the time frame given by the user as on-the-spot. There are many applications like 
+								self-driving cars, tracking objects, face detection, pedestrian detection, medical imaging, robotics etc.
+								 The advantage of real time application is that we don't need any man force to do all the tasks.						
+								</p>
+								<p style="text-align: center;">
+								<b>This project is Published. To access the paper 
+									<a href="https://iieta.org/journals/isi/paper/10.18280/isi.250517">Click Here</a></b>
+								</p>
+							</header>
+							</div>
+
+
+					
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
